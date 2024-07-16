@@ -1,0 +1,44 @@
+*{
+   /* K/C phần tử */
+    margin: 0; 
+    /* K/C phần tử */
+    padding: 0;
+    /* Kích thước PT trên cả trình duyệt là như nhau */
+    box-sizing: border-box;
+}
+
+/* Bộ chọn theo ID */
+#title_2_1{
+    color: red;
+}
+#title_2_2{
+    color: blue;
+}
+
+/* Bộ chọn theo class */
+.title_3_1{
+    color: purple;
+}
+.title_3_2{
+    color: orange;
+}
+
+/* Bộ chọn cha con XY */
+h4{
+    color: pink;
+}
+
+div h4{
+    color: green;
+}
+h4{
+    color: pink;
+}
+
+/* Bộ chọn theo thẻ Link */
+a:Link{
+    color: black;
+}
+a:visited{
+    color: aqua;
+}
