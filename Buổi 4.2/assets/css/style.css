@@ -1,0 +1,54 @@
+/* Reset brower */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Phần tử cha */
+.container {
+  /* width: 1200px; */
+  height: 1000px;
+  background-color: pink;
+  /* Căn giữa phần tử */
+  margin: auto;
+  display: flex;
+  /* flex-direction: X/d hướng phần tử con */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: PT con tự động xuống hàng khi kích thước PT con vượt quá màn hình */
+  /* flex-wrap: wrap; */
+  /* justify-content: Căn chinh PT theo hàng(Quan trọng)*/
+  /* justify-content: flex-end; */
+  /* align-items: Căn chỉnh PT theo cột(Quan trọng) */
+  /* align-items: center; */
+  /* align-content: Căn chỉnh các hàng item */
+  /* align-content: flex-end; */
+}
+/* Phần tử con */
+.item-1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  /* order: 3; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+.item-2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  font-size: 20px;
+  color: #fff;
+  /* order: 1; */
+  /* flex-grow: 1; */
+}
+.item-3 {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  font-size: 20px;
+  color: #fff;
+  /* order: 2; */
+  /* flex-grow: 1; */
+}
