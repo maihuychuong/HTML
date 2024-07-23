@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Thay dổi giá trị 1 thuộc tính */
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  transition: width 0.2s;
+}
+/* hover: cú pháp trong css khi di chuột vào 1 PT */
+.box-1:hover {
+  width: 400px;
+}
+
+/* Thay đổi giá trị nhiều thuộc tính */
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+
+  transition: width 0.3s, height, 0.3s;
+}
+.box-2:hover {
+  width: 400px;
+  height: 400px;
+}
+
+/* Tốc độ chuyển đổi */
+.warp-box div {
+  width: 200px;
+  height: 200px;
+}
+
+/* --- linear --- */
+.box-3 {
+  background-color: violet;
+
+  transition: width 0.4s;
+  transition-timing-function: linear;
+}
+.box-3:hover {
+  width: 500px;
+}
+
+/* --- ease --- */
+.box-4 {
+  background-color: yellow;
+
+  /* Quy định thời gian chuyển đổi width: 200px --> 500px là 0.4s */
+  transition: width 0.4s;
+  transition-timing-function: ease;
+}
+.box-4:hover {
+  width: 500px;
+}
+
+/* --- ease-in --- */
+.box-5 {
+  background-color: orange;
+
+  transition: width 0.4s;
+  transition-timing-function: ease-in;
+}
+.box-5:hover {
+  width: 500px;
+}
+
+/* Độ trễ hiệu ứng transiton */
+.box-6 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+
+  transition: width 0.5s;
+  transition-delay: 3s;
+}
+.box-6:hover {
+  width: 800px;
+}
