@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif; /* Đặt font chữ cho toàn bộ trang */
+  margin: 0; /* Xóa khoảng cách ngoài của phần tử body */
+  padding: 0; /* Xóa khoảng cách trong của phần tử body */
+  background-color: #f4f4f4; /* Đặt màu nền cho trang */
+}
+
+header {
+  text-align: left; /* Căn giữa nội dung của phần tử header */
+}
+
+h1 {
+  background-color: white; /* Nền màu trắng */
+  color: black; /* Chữ màu đen */
+  padding: 20px; /* Khoảng cách giữa chữ và viền của phần tử h1 */
+  margin: 0; /* Xóa khoảng cách ngoài của phần tử h1 */
+  border: none; /* Bỏ viền quanh phần tử h1 */
+  font-size: 20px; /* Kích thước chữ nhỏ hơn */
+
+  display: flex; /* Sử dụng flexbox để bố trí nội dung */
+  justify-content: space-around; /* Căn đều nội dung trong thẻ h1 */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
+}
+
+/* Định dạng cho thẻ h2 */
+h2 {
+  background-color: red; /* Nền màu đỏ */
+  color: white; /* Chữ màu trắng */
+  padding: 20px; /* Khoảng cách giữa chữ và viền của phần tử h2 */
+  margin: 0; /* Xóa khoảng cách ngoài của phần tử h2 */
+  border: none; /* Bỏ viền quanh phần tử h2 */
+  font-size: 38px; /* Kích thước chữ nhỏ hơn */
+}
+h3 {
+  background-image: url('https://tpc.googlesyndication.com/simgad/13157015633357731032');
+  background-size: 600px; /* Đặt kích thước của hình ảnh phù hợp */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  background-position: center; /* Căn giữa hình ảnh */
+  padding: 20px; /* Khoảng cách giữa chữ và viền của thẻ */
+  margin: 0; /* Xóa khoảng cách ngoài của thẻ */
+  border: none; /* Bỏ viền của thẻ */
+  font-size: 120px; /* Kích thước chữ */
+  color: white; /* Màu chữ */
+}
+
+.section-title {
+  background-color: red; /* Nền màu đỏ */
+  color: white; /* Chữ màu trắng */
+  padding: 10px; /* Khoảng cách giữa chữ và viền của phần tử h3 */
+  margin: 10px 0; /* Khoảng cách ngoài của phần tử h3 */
+  font-size: 18px; /* Kích thước chữ vừa phải */
+}
+
+nav {
+  display: flex; /* Hiển thị các phần tử con theo hàng */
+  justify-content: center; /* Căn giữa các liên kết trong thanh điều hướng */
+  background-color: #444; /* Nền của thanh điều hướng màu xám */
+}
+
+nav a {
+  color: white; /* Màu chữ của các liên kết trong thanh điều hướng */
+  padding: 15px 20px; /* Khoảng cách trong của các liên kết */
+  text-decoration: none; /* Bỏ gạch chân của các liên kết */
+}
+
+nav a:hover {
+  background-color: #555; /* Màu nền khi di chuột qua các liên kết */
+}
+
+.container {
+  padding: 20px; /* Khoảng cách trong của phần tử chứa chính */
+}
+
+.content {
+  display: flex; /* Hiển thị các phần tử con theo hàng */
+  gap: 20px; /* Khoảng cách giữa các phần tử con */
+}
+
+.card {
+  background-color: white; /* Nền màu trắng của thẻ */
+  padding: 20px; /* Khoảng cách trong của thẻ */
+  border-radius: 8px; /* Bo tròn các góc của thẻ */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ cho thẻ */
+  flex: 1; /* Để thẻ chiếm không gian đều */
+}
+
+footer {
+  background-color: #333; /* Nền của footer màu xám tối */
+  color: white; /* Màu chữ của footer */
+  text-align: center; /* Căn giữa nội dung trong footer */
+  padding: 10px 0; /* Khoảng cách trong của footer (trên và dưới) */
+  position: fixed; /* Đặt vị trí của footer cố định ở dưới cùng của trang */
+  width: 100%; /* Chiều rộng của footer chiếm toàn bộ chiều rộng của trang */
+  bottom: 0; /* Đặt vị trí của footer ở dưới cùng */
+}
